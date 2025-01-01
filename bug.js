@@ -1,0 +1,1 @@
+This React component uses the wrong lifecycle method to fetch data. `componentWillMount` is deprecated and unreliable in functional components. It's better to use `useEffect` with an empty dependency array `[]` to simulate the `componentDidMount` behavior.
